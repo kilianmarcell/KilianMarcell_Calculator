@@ -1,0 +1,9 @@
+A melléklet drótváz alapján készíts egy számológépet a 4 alapművelet és a maradékos osztás műveletek elvégzéséhez.
+
+Az műveletek elvégzése előtt a beviteli adatokat ellenőrizd:
+	- Minden mező kitöltése kötelező
+	- Csak számot adhat meg
+
+Osztás esetén 2 tizedesjegyre kerekítve írd ki az eredményt.
+
+A beviteli mezők számára sima szöveges mező helyett olyan elemet válassz, amit általában számok megadására használunk. A beviteli mező működhet csak egész, vagy akár egész és törtszámokkal is.
