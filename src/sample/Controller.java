@@ -13,15 +13,22 @@ public class Controller {
     @FXML
     public TextField masodikBeviteliMezo;
 
+    public int elsoSzam() {
+        return Integer.parseInt(elsoBeviteliMezo.getText());
+    }
+
+    public int masodikSzam() {
+        return Integer.parseInt(masodikBeviteliMezo.getText());
+    }
+
     @FXML
     public void osszeadas(ActionEvent actionEvent) {
-        int elsoSzam = Integer.parseInt(elsoBeviteliMezo.getText());
-        int masodikSzam = Integer.parseInt(masodikBeviteliMezo.getText());
-        vegeredmeny.setText(elsoSzam + masodikSzam + "");
+        vegeredmeny.setText(elsoSzam() + masodikSzam() + "");
     }
 
     @FXML
     public void kivonas(ActionEvent actionEvent) {
+        vegeredmeny.setText(elsoSzam() - masodikSzam() + "");
     }
 
     @FXML
