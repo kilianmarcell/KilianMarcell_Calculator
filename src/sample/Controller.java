@@ -13,12 +13,12 @@ public class Controller {
     @FXML
     public TextField masodikBeviteliMezo;
 
-    public int elsoSzam() {
-        return Integer.parseInt(elsoBeviteliMezo.getText());
+    public double elsoSzam() {
+        return Double.parseDouble(elsoBeviteliMezo.getText());
     }
 
-    public int masodikSzam() {
-        return Integer.parseInt(masodikBeviteliMezo.getText());
+    public double masodikSzam() {
+        return Double.parseDouble(masodikBeviteliMezo.getText());
     }
 
     @FXML
@@ -38,7 +38,7 @@ public class Controller {
 
     @FXML
     public void osztas(ActionEvent actionEvent) {
-        vegeredmeny.setText(elsoSzam() / masodikSzam() + "");
+        vegeredmeny.setText(String.format("%.2f", elsoSzam() / masodikSzam()));
     }
 
     @FXML
