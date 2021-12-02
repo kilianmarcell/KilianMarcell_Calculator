@@ -33,6 +33,7 @@ public class Controller {
 
     @FXML
     public void szorzas(ActionEvent actionEvent) {
+        vegeredmeny.setText(elsoSzam() * masodikSzam() + "");
     }
 
     @FXML
