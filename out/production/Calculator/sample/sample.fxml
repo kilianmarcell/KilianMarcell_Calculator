@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<?import javafx.geometry.Insets?>
 <GridPane xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <padding>
-      <Insets top="10" bottom="10" right="10" left="10"/>
+      <Insets bottom="10" left="10" right="10" top="10" />
    </padding>
    <columnConstraints>
       <ColumnConstraints hgrow="SOMETIMES" minWidth="40.0" prefWidth="40.0" />
@@ -21,10 +21,13 @@
       <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
    </rowConstraints>
    <children>
-      <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="30" maxWidth="40" minHeight="30" minWidth="40" mnemonicParsing="false" text="+" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="1" />
-      <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="30" maxWidth="40" minHeight="30" minWidth="40" mnemonicParsing="false" text="-" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-      <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="30" maxWidth="40" minHeight="30" minWidth="40" mnemonicParsing="false" text="*" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-      <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="30" maxWidth="40" minHeight="30" minWidth="40" mnemonicParsing="false" text="/" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-      <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="30" maxWidth="40" minHeight="30" minWidth="40" mnemonicParsing="false" text="/" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+      <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="30" maxWidth="40" minHeight="30" minWidth="40" mnemonicParsing="false" onAction="#osszeadas" text="+" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+      <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="30" maxWidth="40" minHeight="30" minWidth="40" mnemonicParsing="false" onAction="#kivonas" text="-" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="30" maxWidth="40" minHeight="30" minWidth="40" mnemonicParsing="false" onAction="#szorzas" text="*" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="30" maxWidth="40" minHeight="30" minWidth="40" mnemonicParsing="false" onAction="#osztas" text="/" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+      <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="30" maxWidth="40" minHeight="30" minWidth="40" mnemonicParsing="false" onAction="#maradekosOsztas" text="/" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+      <Label fx:id="vegeredmeny" alignment="CENTER" contentDisplay="CENTER" maxHeight="30" maxWidth="40" minHeight="30" minWidth="40" text="" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <TextField fx:id="elsoBeviteliMezo" maxHeight="30" maxWidth="80" minHeight="30" minWidth="80" />
+      <TextField fx:id="masodikBeviteliMezo" maxHeight="30" maxWidth="80" minHeight="30" minWidth="80" GridPane.columnIndex="3" />
    </children>
 </GridPane>
