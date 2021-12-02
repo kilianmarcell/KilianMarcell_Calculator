@@ -23,17 +23,17 @@ public class Controller {
 
     @FXML
     public void osszeadas(ActionEvent actionEvent) {
-        vegeredmeny.setText(elsoSzam() + masodikSzam() + "");
+        vegeredmeny.setText(String.format("%.2f", elsoSzam() + masodikSzam()));
     }
 
     @FXML
     public void kivonas(ActionEvent actionEvent) {
-        vegeredmeny.setText(elsoSzam() - masodikSzam() + "");
+        vegeredmeny.setText(String.format("%.2f", elsoSzam() - masodikSzam()));
     }
 
     @FXML
     public void szorzas(ActionEvent actionEvent) {
-        vegeredmeny.setText(elsoSzam() * masodikSzam() + "");
+        vegeredmeny.setText(String.format("%.2f", elsoSzam() * masodikSzam()));
     }
 
     @FXML
@@ -43,6 +43,6 @@ public class Controller {
 
     @FXML
     public void maradekosOsztas(ActionEvent actionEvent) {
-        vegeredmeny.setText(elsoSzam() % masodikSzam() + "");
+        vegeredmeny.setText(String.format("%.0f", elsoSzam() % masodikSzam()));
     }
 }
