@@ -38,6 +38,7 @@ public class Controller {
 
     @FXML
     public void osztas(ActionEvent actionEvent) {
+        vegeredmeny.setText(elsoSzam() / masodikSzam() + "");
     }
 
     @FXML
