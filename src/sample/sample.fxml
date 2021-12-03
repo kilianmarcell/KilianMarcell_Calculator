@@ -25,7 +25,7 @@
       <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="30" maxWidth="40" minHeight="30" minWidth="40" mnemonicParsing="false" onAction="#kivonas" text="-" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1" />
       <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="30" maxWidth="40" minHeight="30" minWidth="40" mnemonicParsing="false" onAction="#szorzas" text="*" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1" />
       <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="30" maxWidth="40" minHeight="30" minWidth="40" mnemonicParsing="false" onAction="#osztas" text="/" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-      <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="30" maxWidth="40" minHeight="30" minWidth="40" mnemonicParsing="false" onAction="#maradekosOsztas" text="m/" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+      <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="30" maxWidth="40" minHeight="30" minWidth="40" mnemonicParsing="false" onAction="#maradekosOsztas" text="\%" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="1" />
       <Label fx:id="vegeredmeny" alignment="CENTER" contentDisplay="CENTER" maxHeight="30" maxWidth="40" minHeight="30" minWidth="40" text="" GridPane.columnIndex="2" GridPane.rowIndex="2" />
       <TextField fx:id="elsoBeviteliMezo" maxHeight="30" maxWidth="80" minHeight="30" minWidth="80" />
       <TextField fx:id="masodikBeviteliMezo" maxHeight="30" maxWidth="80" minHeight="30" minWidth="80" GridPane.columnIndex="3" />

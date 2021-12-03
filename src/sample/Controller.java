@@ -43,6 +43,6 @@ public class Controller {
 
     @FXML
     public void maradekosOsztas(ActionEvent actionEvent) {
-        vegeredmeny.setText(String.format("%.0f", elsoSzam() % masodikSzam()));
+        vegeredmeny.setText(String.format("%.2f", elsoSzam() % masodikSzam()));
     }
 }
